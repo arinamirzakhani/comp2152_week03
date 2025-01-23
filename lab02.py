@@ -8,6 +8,7 @@ mNumLives = 12          # number of monster's lives remaining
 diceOptions = [1, 2, 3, 4, 5, 6]
 combatStrength = int(input("Enter your combat Strength: "))
 mCombatStrength = int(input("Enter the monster's combat Strength: "))
+weapons = ["Fist", "Knife", "Club", "Gun", "Bomb", "Nuclear bomb"]
 
 input("Roll the dice for your health points (Press enter)")
 healthPoints = random.choice(diceOptions)
